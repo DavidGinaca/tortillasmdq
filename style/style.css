@@ -1,0 +1,17 @@
+.fondo1{
+    background-image: url("../img/background.png");
+    background-position: center;
+    background-size:  cover;
+    height: 70vh;  
+}
+
+.nav-link{
+    color: #e94107;
+}
+
+h1{
+    color: #e94107;
+    font-weight: 700;
+    font-style: italic;
+}
+
