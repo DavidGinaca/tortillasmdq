@@ -1,17 +1,60 @@
 .fondo1{
-    background-image: url("../img/background.png");
+    background-image: url("../img/fondo-color-naranja-con-negro-445269924.png");
     background-position: center;
-    background-size:  cover;
-    height: 70vh;  
+    background-size:contain; 
+}
+
+.fondo2{
+    background-image: url("../img/2.png");
+    background-position: center;
+    background-size:  cover; 
+    
+}
+
+body{
+    color: white;
 }
 
 .nav-link{
-    color: #e94107;
+    color: white;
 }
 
-h1{
-    color: #e94107;
+.nav-link:hover{
+    color: #f78a65;
+}
+
+
+h1,h2,h5,h3{  
     font-weight: 700;
-    font-style: italic;
+    font-style: italic;    
+    color: #e94107;
 }
 
+
+.img-fluid{
+   height: 400px;
+}
+
+.carousel .carousel-item {
+    height: 550px;
+}
+  
+.carousel-item img {
+      position: absolute;
+      object-fit: cover;
+      top: 0;
+      left: 0;
+      min-height: 550px;
+}
+
+.espacio{
+    padding-top: 10rem;
+}
+
+.t1{
+    margin-top: 80px;
+}
+
+.t2{
+ font-size: 8rem;
+}
